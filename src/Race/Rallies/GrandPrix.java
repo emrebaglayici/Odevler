@@ -40,24 +40,6 @@ public class GrandPrix implements Rally{
         }
         return vehicles.get(1);
     }
-//    public double getWinnerSpeed(List<Vehicle> vehicles){
-//        ;
-//        for(Vehicle data:vehicles){
-//            if(data.getMaxSpeed()<max.getMaxSpeed()){
-//                max=data.;
-//            }
-//        }
-//        double max=vehicles.get(0);
-//        for(Vehicle arac:vehicles){
-//
-//            if(!(max>arac.getMaxSpeed())){
-//                if(max< arac.getMaxSpeed())
-//                    max= arac.getMaxSpeed();
-//            }
-//            return max;
-//        }
-//        return 0;
-//    }
 
     @Override
     public String toString() {

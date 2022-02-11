@@ -1,7 +1,4 @@
 package Race.Vehicles;
-
-
-import Race.Rallies.GrandPrix;
 import Race.Rallies.Rally;
 
 public class Vehicle {
@@ -54,31 +51,15 @@ public class Vehicle {
     }
 
     public boolean bestSpeed(){
-//        System.out.println(grandPrix.getVehicles());
-//        for (int i = 0; i < grandPrix.getVehicles().size(); i++) {
-//            double max=maxSpeed;
-//            if(max>grandPrix.getVehicles().get(1).getMaxSpeed())
-//                return true;
-//        }
-
         return false;
     }
 
-//    public Vehicle getWinerInfo(){
-//        System.out.println(grandPrix.getVehicles().size());
-//        for (Vehicle arac:grandPrix.getVehicles()) {
-//                double max=maxSpeed;
-//                if(arac.getMaxSpeed()>maxSpeed)
-//                    return arac;
-//        }
-//        return null;
-//    }
 
     @Override
     public String toString() {
         return
-                "vehicleName=" + vehicleName +
-                ", maxSpeed=" + maxSpeed +" km/h"+
+                vehicleName +
+                " ->  maxSpeed=" + maxSpeed +" km/h"+
                 ", weight=" + weight +" kg";
     }
 }
